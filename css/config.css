@@ -1,0 +1,281 @@
+*{
+    outline: none;
+    font-family: 'Open Sans';
+   
+}
+
+header{
+    background-color: #000000;
+    padding-bottom: 1%;
+}
+.nomeempresa{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+  
+}
+.slogan{
+    color: #F8D930;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 6%;
+    padding-right: 6%;
+  
+}
+nav{
+    margin-top: -2%;
+    margin-bottom: 1%;
+    margin-left: 54%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.menu, .idioma{
+    text-decoration: none;
+    color: white;
+    margin-left: 7%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 5%;
+ }
+ .menu:hover{
+    color: #F8D930;
+    border-bottom: solid 1px #F8D930;
+ }
+ .idioma:active{
+    color: #F8D930;
+ }
+ .idioma:hover{
+    color: #F8D930;
+ }
+.sect1,.sect2,.sect3,.sect4{
+    position: relative;
+    background-color: #000000;
+}
+.img20,.img21, .img22{
+    width: 100%;
+
+}
+.img18{
+    width: 60%;
+    margin-left: 6%;
+    padding-bottom: 2%;
+    padding-top: 6%;
+}
+h1{
+    font-weight: 300;
+    font-size: 52px;
+    color: #ffffff;
+    position: absolute;
+    top: 25%;
+    left: 62%;
+}
+
+h2{
+    font-size: 80px;
+    color: #ffffff;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    font-weight: 300';
+
+}
+h3{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    font-weight: 400;
+    top: 60%;
+    left: 6%;
+}
+.sect5{
+    background-color: #1b1a1a;
+}
+.clientes{
+    margin-left: 6%;
+    padding-top: 2%;
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.logos{
+    margin-left: 2%;
+    margin-right: 6%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.clien{
+    margin-left: 4.5%;
+    margin-bottom: 1%;
+}
+.somos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+   
+}
+.jz{
+    width: 41%;
+    padding-top: 6%;
+}
+.jza{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 6%;
+    color: #000000;
+    
+}
+.jzar{
+    padding-bottom: 13%;
+    font-size: 40px;
+    font-weight: 600;
+    color: #969696;
+}
+.jz1{
+    width: 59%;
+    background-color: #1b1a1a;
+    padding-top: 6%;
+    padding-right: 0%;
+    padding-left: 6%;
+}
+.jza1{
+    font-size: 52px;
+    font-weight: 600;
+    color: #ffffff;
+    
+}
+.jzar1{
+    padding-bottom: 13%;
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    background-color: #F5F5F5;
+}
+.sect7{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    background-color: #F5F5F5;
+    padding-bottom: 10%;
+}
+.formulario{
+    margin-left: 6%;
+    width: 65%;
+}
+input, textarea{
+    border: none;
+    border-bottom: #000000 1px solid;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+}
+label{
+    font-size: 12px;
+    font-weight: 300;
+    color: #4b4949c2;
+}
+.form2{
+    margin-left: 10%;
+    text-align: right;
+}
+.estamos {
+    margin-right: 6%;
+}
+.precisar{
+    color: #000000;
+    font-size: 52px;
+    font-weight: 400;
+
+}
+.deixe{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer{
+    position: relative;
+    background-color: #F5F5F5;
+}
+.rec6{
+    position: absolute;
+    top: -2%;
+    left: 26.9%;
+    width: 73.1%;
+    z-index: 1000;
+}
+.sect8{
+    background-color: #1b1a1a;
+    z-index: 6000;
+    position: absolute;
+    margin-top: 9%;
+    padding-bottom: 10%;
+    width: 94%;
+   
+}  
+
+.inf{
+    z-index: 2000;
+    width: 90%;
+    margin-left: 6%;
+    padding-top: 5%;
+}
+.inform, .redes{
+    display: flex;
+    flex-direction: row;
+     
+}
+.end{
+    margin-right: 33%;
+}
+.slogan2{
+    margin-right: 23%;
+}
+h4{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+h5{
+    color: #cac8c8;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 6%;
+}
+h6{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-right: -13%;
+
+}
+.siga{
+    margin-top: 116%;
+    margin-left: 6%;
+    margin-right: -6%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.red{
+    margin-left: 13%;
+}
+.reser{
+    margin-top: 8%;
+    margin-left: 41%;
+}
+.reservado{
+    color:  #cac8c8;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: -25%;
+}
