@@ -1,6 +1,6 @@
 *{
     outline: none;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
    
 }
 
@@ -89,6 +89,7 @@ h3{
     font-weight: 400;
     top: 60%;
     left: 6%;
+    line-height: 34px;
 }
 .sect5{
     background-color: #1b1a1a;
@@ -177,6 +178,32 @@ input, textarea{
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0);
 }
+#nomes{
+    width: 173%;
+}
+input[type=email]{
+    width: 76%;
+    margin-left: 23%;
+}
+input[type=tel]{
+    width: 112%;
+   
+}
+#emp{
+    width: 112%;
+} 
+#p{
+    margin-left: 23%;
+}
+#cel{
+    margin-top: 17%;
+}
+#firma{
+    margin-top: 17%;
+}
+#men{
+    margin-top: 8%;
+}
 label{
     font-size: 12px;
     font-weight: 300;
@@ -184,10 +211,24 @@ label{
 }
 .form2{
     margin-left: 10%;
-    text-align: right;
+    
 }
 .estamos {
     margin-right: 6%;
+    margin-left: -4%;
+}
+.check{
+    margin-top: 2%;
+}
+.salvar{
+    background-color: #F8D930;
+    color: #000000;
+    margin-left: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    border: none;
 }
 .precisar{
     color: #000000;
@@ -248,7 +289,7 @@ h5{
     color: #cac8c8;
     font-size: 13px;
     font-weight: 300;
-    margin-left: 6%;
+    margin-left: -0.5%;
 }
 h6{
     color: #ffffff;
@@ -260,14 +301,13 @@ h6{
 }
 .siga{
     margin-top: 116%;
-    margin-left: 6%;
     margin-right: -6%;
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
 }
 .red{
-    margin-left: 13%;
+    margin-left: 8%;
 }
 .reser{
     margin-top: 8%;
@@ -278,4 +318,9 @@ h6{
     font-size: 14px;
     font-weight: 300;
     margin-left: -25%;
+}
+.tp{
+   position: absolute;
+   top: 72%;
+   left: 102.5%;
 }
