@@ -10,29 +10,64 @@
         position: relative;
         
     }
+    .botao{
+        width: 177%;
+        height: 101%;
+       
+    }
+    .botao1{
+       
+        margin-left: -26%;
+        margin-top: -227%;
+        
+       
+    }
+    .botao1:hover{
+        width: 201%;
+        height: 101%;
+        margin-left: -26%;
+        margin-top: -227%;
+        display: initial;
+    }
     .btm{
-        background-image: url(../imgmobile/botao-menu.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
+       
         z-index: 2000;
         width: 5%;
         height: 42%;
         position: absolute;
-        top: 50%;
+        top: 39%;
         left: 2%;
     }
+  
+    .sub{
+        display: none;
+     
+    }
+    .sub2{
+        font-size: 18px;
+        display: none;
+        margin-left: 5%;
+        padding-top: 3%;
+       
+    }
     .nomeempresa{
-        font-size: 35px;
-        padding-left: 10%;
+        font-size: 75px;
+        margin-left: 17%;
+       
     }
     .slogan{
         display: none;
     }
+    .menu{
+        margin-left: 6%;
+        font-size: 49px;
+        line-height: 187%;
+    }
     nav{
-        margin-top: -5%;
-        margin-left: 105%;
+        margin-top: -8%;
+        margin-left: 77%;
         margin-right: -33%;
-        padding-right: -62%;
+    
     }
     
     .sub{
@@ -41,11 +76,11 @@
     .idioma{
         text-decoration: none;
         color: white;
-        margin-left: 5%;
-        font-size: 25px;
+        margin-left: 12%;
+        font-size: 50px;
         font-weight: 400;
         line-height: 5%;
-    }
+        }
     .caixa{
         display: none;
     }
@@ -69,6 +104,13 @@
     }
     .img20,.img21,.img22{
         display: none;
+    }
+    .clien{
+     display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+        width: 70%;
+        margin-left: 7%;
     }
     .imgocl{
         background-color: black;
@@ -98,7 +140,7 @@
     .jz1{
         width: 100%;
         padding-top: 6%;
-        padding-left: 4%;
+        padding-left: 6%;
         padding-right: 6%;
     }
     .jzar1{
@@ -144,17 +186,17 @@
         font-size: 20px;
         
     } 
-    #nomes, #emp{
+    #nomes2, #emp2{
         width: 96%;
     }
-    #p{
+    #p2{
         margin-left: 0%;
     }
     input[type=email]{
         width: 96%;
         margin-left: 0%;
     }
-    #cel, #firma{
+    #cel2, #firma2{
         margin-top: 5%;
        
     }
@@ -162,7 +204,7 @@
         width:96%;
        
     }
-    #men{
+    #men2{
         margin-top: 8%;
         margin-left: 0%;
     }
@@ -188,7 +230,7 @@
          margin-left: 4%;
      }
      .salvar{
-        top: 351%;
+        top: 508%;
         padding-left: 30%;
         padding-right: 30%;
         padding-top: 1.5%;
@@ -236,10 +278,10 @@
         margin-left: -11%;
         position: absolute;
         top: 43%;
-        left: 43%;
+        left: 39%;
     }
     .lay{
-        width: 300%;
+        width: 72%;
     }
     .soci{
         margin-left: 43%;
@@ -270,5 +312,5 @@
         margin-left: -18%;
         margin-right: -34%;
     }
-    
+  
 }

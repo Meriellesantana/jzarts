@@ -34,12 +34,17 @@
         padding-right: 6%;
       
     }
+    .botao, .botão1{
+        display: none;
+
+    }
 
     nav{
         width: 45%;
         position: absolute;
-        top: 12%;
+        top: 13%;
         left: 0%;
+        z-index: 300000;
     }
     .menu, .idioma{
         text-decoration: none;
@@ -58,6 +63,12 @@
     .sect1,.sect2,.sect3,.sect4{
         position: relative;
         background-color: #000000;
+    }
+    .clien{
+        
+        margin-bottom: 5%;
+        width: 9%;
+        margin-left: 7%;
     }
     h1{
         font-weight: 300;
@@ -146,5 +157,9 @@
         padding-top: 0.5%;
         padding-bottom: 0.5%;
        
+    }
+    footer{
+        display: flex;
+        background-color: #F5F5F5;
     }
 }

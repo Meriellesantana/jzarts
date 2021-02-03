@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
-$('.btm').on("click",function(){
-$('.sub2').slideToggle();
+$('.btm').on("click",function(e){ 
+     e.preventDefault();
+    $('.sub2').slideToggle();
+    $('.botao1', this).attr('src',"imgmobile/botao-menu-aberto.png" );
 
 });
 
