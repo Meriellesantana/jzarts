@@ -6,5 +6,10 @@ $('.btm').on("click",function(e){
     $('.botao1', this).attr('src',"imgmobile/botao-menu-aberto.png" );
 
 });
+$('.btm').on("click",function(){ 
+      $('.botao1').slideToggle();
+
+
+});
 
 });

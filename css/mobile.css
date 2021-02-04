@@ -16,19 +16,15 @@
        
     }
     .botao1{
-       
-        margin-left: -26%;
-        margin-top: -227%;
-        
+        background-color: #212121;
+        width: 212%;
+        height: 125%;
+        margin-left: -23%;
+        margin-top: -237%;
+        display: none;
        
     }
-    .botao1:hover{
-        width: 201%;
-        height: 101%;
-        margin-left: -26%;
-        margin-top: -227%;
-        display: initial;
-    }
+
     .btm{
        
         z-index: 2000;
@@ -111,6 +107,12 @@
         margin-bottom: 5%;
         width: 70%;
         margin-left: 7%;
+    }
+    .clientes {
+        padding-top: 10%;
+        padding-bottom: 11%;
+        font-size: 79px;
+        
     }
     .imgocl{
         background-color: black;
@@ -230,7 +232,7 @@
          margin-left: 4%;
      }
      .salvar{
-        top: 508%;
+        top: 520%;
         padding-left: 30%;
         padding-right: 30%;
         padding-top: 1.5%;
