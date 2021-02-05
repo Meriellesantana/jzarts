@@ -6,7 +6,8 @@
 }
 
 header{
-    background-color: #000000;
+    background-color: #212121
+    ;
     padding-bottom: 1%;
 
 }
@@ -68,7 +69,7 @@ nav{
     color: #F8D930;
  }
 .sect1,.sect2,.sect3,.sect4, .sect6{
-    background-color: #000000;
+    background-color: #212121;
 }
 
 .img20,.img21, .img22{
