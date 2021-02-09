@@ -10,8 +10,6 @@ $('.btm').on("click",function(e){
         $('.btm .botao').attr('src',"imgmobile/botao-menu.png" );     
       }
     });
-    
-   
 });
 
 });

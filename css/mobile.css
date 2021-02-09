@@ -102,11 +102,11 @@
         display: none;
     }
     .clien{
-     display: flex;
+        display: flex;
         flex-wrap: wrap;
         margin-bottom: 5%;
         width: 70%;
-        margin-left: 7%;
+        margin-left: 28%;
     }
     .clientes {
         padding-top: 10%;
@@ -154,6 +154,7 @@
     }
     .sect7{
         background-color: #F5F5F5;
+        position: relative;
     }
     #dis{
         display: flex;
@@ -232,7 +233,8 @@
          margin-left: 4%;
      }
      .salvar{
-        top:1023%;
+        position: absolute;
+        top:93%;
         padding-left: 30%;
         padding-right: 30%;
         padding-top: 1.5%;
