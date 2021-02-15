@@ -1,6 +1,6 @@
 @media only screen  and (min-width : 1024px) {
     header{
-        background-color: #000000;
+        background-color: #2A2A2E;
         padding-bottom: 1%;
     }
     .container{
@@ -42,7 +42,7 @@
     nav{
         width: 45%;
         position: absolute;
-        top: 13%;
+        top: 22%;
         left: 0%;
         z-index: 300000;
     }
@@ -62,21 +62,20 @@
     }
     .sect1,.sect2,.sect3,.sect4{
         position: relative;
-        background-color: #000000;
+        background-color: #2A2A2E;
     }
     .clien{
         
         margin-bottom: 5%;
-        width: 9%;
-        margin-left: 7%;
+        margin-left: 10%;
     }
     h1{
         font-weight: 300;
         font-size: 42px;
         color: #ffffff;
         position: absolute;
-        top: 8%;
-        left: 61%;
+        top: 46%;
+        left: 6%;
         line-height: 77px;
     }
     h2{
@@ -108,6 +107,16 @@
         padding-top: 6%;
         padding-left: 4%;
         padding-right: 6%;
+    }
+    .jzar12{
+        padding-bottom: 13%;
+        padding-top: 5%;
+        font-size: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    h2{
+        display: none;
     }
     .sect7{
         display: flex;

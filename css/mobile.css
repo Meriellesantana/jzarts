@@ -1,6 +1,6 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     header{
-        background-color: #212121;
+        background-color: #2A2A2E;;
     }
     .container{
         margin-left: 4% !important;
@@ -16,7 +16,7 @@
        
     }
     .botao1{
-        background-color: #212121;
+        background-color: #2A2A2E;;
         width: 212%;
         height: 125%;
         margin-left: -23%;
@@ -83,46 +83,53 @@
     .sect1{
         margin-top: -1%;
         padding-bottom: 5%;
-        background-color: #212121;;
+        background-color: #2A2A2E;
     }
     h1{
-        font-size: 63px;
+        font-size: 72px;
         color: #ffffff;
-        font-weight: 300;
-        line-height: 81.41px;
-        padding-top: 10%;
+        font-weight: 400;
+        line-height: 107px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .textoblack{
+        display: none;
     }
     .sect2,.sect3,.sect4{
         margin-top: -1%;
-        background-color: #000000;
+        background-color: #2A2A2E;
         padding-top: 10%;
         padding-bottom: 10%;
     }
-    .img20,.img21,.img22{
+    .img20,.img21,.img22,.rec6,.luz,.trans,.tecno{
         display: none;
     }
     .clien{
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 5%;
+        margin-bottom: 25%;
         width: 70%;
         margin-left: 28%;
+  
     }
     .clientes {
+        margin-top: -1%;
         padding-top: 10%;
         padding-bottom: 11%;
         font-size: 79px;
         
     }
     .imgocl{
-        background-color: black;
+        background-color: #2A2A2E;
         width: 100%;
     }
     h2{
-        font-size: 80px;
-        color: #ffffff;      
+        font-size: 75px;
+        color: #ffffff;
         font-weight: 300;
-    
+        padding-top: 29%;
+        margin-top: -1%;
     }
     h3{
         font-size: 32px;
@@ -135,27 +142,82 @@
     }
     .jz{
         width: 100%;
-        padding-top: 6%;
+        padding-top: 17%;
         padding-left: 6%;
+        padding-bottom: 17%;
         
+      
     }
     .jz1{
         width: 100%;
         padding-top: 6%;
         padding-left: 6%;
         padding-right: 6%;
+   
+   
+    }
+    .jza {
+        font-size: 72px;
+        font-weight: 600;
+        margin-bottom: 6%;
+        color: #000000;
+    }
+    .jzar {
+        padding-bottom: 13%;
+        font-size: 55px;
+        font-weight: 600;
+        color: #969696;
+    }
+    .jza1 {
+        font-size: 95px;
+        font-weight: 600;
+        color: #ffffff;
     }
     .jzar1{
         padding-bottom: 13%;
         padding-top: 5%;
-        font-size: 25px;
+        font-size: 55px;
         font-weight: 400;
         color: #ffffff;
+    }
+    .jzar111 {
+        padding-top: 13%;
+        margin-left: 1%;
+        font-size: 45px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    p {
+        color: #ffffff;
+        font-size: 90px;
+    }
+    .jzar12{
+        padding-bottom: 13%;
+        padding-top: 5%;
+        font-size: 42px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .img24 {
+        width: 80%;
+        margin-top: 11%;
+        margin-left: 10%;
+        padding-bottom: 22%;
+    }
+    .sect9 {
+        background-color: #2A2A2E;
+        margin-top: -1%;
+    }
+    }.sect10{
+        background-color: #000000;
+        position: relative;
+        padding-bottom: 10%;
     }
     .sect7{
         background-color: #F5F5F5;
         position: relative;
     }
+  
     #dis{
         display: flex;
         flex-direction: column-reverse;
@@ -170,18 +232,24 @@
     }
     .precisar {
         margin-left: -6%;
+        color: #000000;
+        font-size: 76px;
+        font-weight: 400;
     }
     .deixe{
-        font-size: 25px;
+        font-size: 45px;
         margin-left: -6%;
         padding-top: 12%;
+    }
+    .borda{
+        margin-top: 12%;
     }
     .form2{
   
         flex-direction: column;
     }
     label{
-        font-size: 25px;
+        font-size: 33px;
         margin-bottom: 5%;
         margin-top: 5%;
     } 
@@ -224,32 +292,31 @@
         width: 10%;
     }
     .check input{
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
-            }
+        width: 38px;
+        height: 38px;
+    }
      .lab{
-         margin-top: -6%;
-         margin-left: 4%;
+        margin-top: -7%;
+        margin-left: 8%;
      }
      .salvar{
         position: absolute;
-        top:93%;
+        top:95%;
         padding-left: 30%;
         padding-right: 30%;
         padding-top: 1.5%;
         padding-bottom: 1.5%;
-        margin-left: -40%;
+        margin-left: -32%;
         font-size: 36px;
     }
     .rec6,.tp,h6{
         display: none;
     }
     footer{
-        background-color:  #1b1a1a;
+        background-color:  #2A2A2E;
     }
     .sect8{
-        background-color: #1b1a1a;
+        background-color: #2A2A2E;
         margin-top: 0%;
         padding-bottom: 9%;
         width: 100%;
