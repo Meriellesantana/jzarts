@@ -78,10 +78,14 @@ nav{
     width: 100%;
 
 }
-.img18{
-    margin-left: -9%;
-    width: 121%;
+.caixa{
+    background-image: url(../img/img/image21.png);
+    background-repeat: no-repeat;
+    background-size: 112% 103%;
+    padding-bottom: 50%;
+    margin-left: -10%;
 }
+
 h1{
    
     font-style: normal;
@@ -108,6 +112,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.589);
 }
 .tecno{
+    background-color: #2A2A2E;
     position: absolute;
     left: 74%;
     top: 40%;
