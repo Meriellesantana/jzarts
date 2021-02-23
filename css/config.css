@@ -81,7 +81,7 @@ nav{
 .caixa{
     background-image: url(../img/img/image21.png);
     background-repeat: no-repeat;
-    background-size: 112% 103%;
+    background-size: 107% 103%;
     padding-bottom: 50%;
     margin-left: -10%;
 }
@@ -101,7 +101,7 @@ h1{
     padding-top: 22px;
     position: absolute;
     top: 29%;
-    left: 45%;
+    left: 50%;
     width: 602px;
     height: 108px;
     font-weight: normal;
@@ -114,11 +114,11 @@ h1{
 .tecno{
     background-color: #2A2A2E;
     position: absolute;
-    left: 74%;
+    left: 73%;
     top: 40%;
     font-style: normal;
     font-weight: bold;
-    font-size: 85px;
+    font-size: 100px;
     line-height: 131px;
     color: rgba(255, 255, 255, 0.11);
     transform: rotate(-90deg);
