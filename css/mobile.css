@@ -1,24 +1,30 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     header{
-        background-color: #2A2A2E;;
-    }
-    .container{
-        margin-left: 4% !important;
-        margin-right: 4% !important;
-    }
-    .empresa{
+        background-color: #2A2A2E;
         position: relative;
-        
+    }
+  
+   
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../imgmobile/botao-menu.png);
+        padding-bottom: 273%;
+        padding-left: 147%;
+    }
+    #nav102{
+        display: flex;
+        margin-top: 4%;
+        margin-left: 2%;
     }
     .botao{
-        width: 177%;
-        height: 101%;
-       
+        width: 64px;
+        height: 64px;
+        margin-top: 101%
     }
     .botao1{
-        background-color: #2A2A2E;;
-        width: 212%;
-        height: 125%;
+        background-color: #2A2A2E;
+        width: 64px;
+        height: 64px;
         margin-left: -23%;
         margin-top: -237%;
         display: none;
@@ -26,50 +32,51 @@
     }
 
     .btm{
-       
-        z-index: 2000;
-        width: 5%;
-        height: 42%;
         position: absolute;
-        top: 39%;
-        left: 2%;
+        top: 01%;
+        left: 6%;
+        /* margin-top: -8%; */
+        /* margin-left: 6%; */
+        width: 4%;
+        height: 31%;
     }
-  
-    .sub{
-        display: none;
-     
+       
+    
+    .menu1{
+        margin-left: 6%;
+        font-size: 49px;
+        line-height: 187%;;
+        color: #ffffff;
+         list-style: none!important;
+         text-decoration: none;
     }
-    .sub2{
+    #menu1:hover{
+        color: #F8D930;
+        border-bottom: solid 1px #F8D930;
+     }
+   
+    #sub2{
         font-size: 18px;
         display: none;
         margin-left: 5%;
         padding-top: 3%;
+        color: #ffffff;
        
     }
+    #sub2 li{
+        list-style: none;
+    } 
     .nomeempresa{
         font-size: 75px;
-        margin-left: 17%;
+        margin-left: 0%;
        
     }
-    .slogan{
+    .slogan, sub{
         display: none;
     }
-    .menu{
-        margin-left: 6%;
-        font-size: 49px;
-        line-height: 187%;
-    }
-    nav{
-        margin-top: -8%;
-        margin-left: 77%;
-        margin-right: -33%;
-    
-    }
-    
-    .sub{
-        display: none;
-    }
-    .idioma{
+  
+  
+    #idioma{
         text-decoration: none;
         color: white;
         margin-left: 12%;
@@ -81,9 +88,10 @@
         display: none;
     }
     .sect1{
-        margin-top: -1%;
-        padding-bottom: 5%;
-        background-color: #2A2A2E;
+        margin-top: -2%;
+        padding-left: 4%;
+        margin-bottom: -17%;
+        padding-bottom: 60%;
     }
     h1{
         font-size: 72px;
@@ -102,7 +110,7 @@
         padding-top: 10%;
         padding-bottom: 10%;
     }
-    .img20,.img21,.img22,.rec6,.luz,.trans,.tecno{
+    .img20,#img21,.img22,.rec6,.luz,.trans,#tecno,#textoblack{
         display: none;
     }
     .clien{
@@ -110,7 +118,7 @@
         flex-wrap: wrap;
         margin-bottom: 25%;
         width: 70%;
-        margin-left: 28%;
+        margin-left: 20%;
   
     }
     .clientes {
@@ -313,6 +321,9 @@
         display: none;
     }
     footer{
+        display: flex;
+        position: relative;
+        height: 663px;
         background-color:  #2A2A2E;
     }
     .sect8{
