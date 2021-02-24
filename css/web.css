@@ -35,6 +35,19 @@
         border-bottom: solid 1px #F8D930;
       
     }
+    #id1{
+        margin-left: -9%;
+        margin-top: -1%;
+        
+    }
+    #id2{
+        margin-left: 1%;
+        margin-top: -1%;
+    }
+    #id3{
+        margin-left: 7%;
+        margin-top: 0%;
+    }
     h1{
         font-weight: 300;
         font-size: 42px;

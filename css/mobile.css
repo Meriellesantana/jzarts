@@ -3,9 +3,6 @@
         background-color: #2A2A2E;
         position: relative;
     }
-  
-   
-    
     .navbar-light .navbar-toggler-icon {
         background-image: url(../imgmobile/botao-menu.png);
         padding-bottom: 273%;
@@ -50,7 +47,7 @@
          list-style: none!important;
          text-decoration: none;
     }
-    #menu1:hover{
+    .menu1:hover{
         color: #F8D930;
         border-bottom: solid 1px #F8D930;
      }
@@ -66,6 +63,19 @@
     #sub2 li{
         list-style: none;
     } 
+    #id1{
+        margin-left: -138%;
+        margin-top: -28%;
+        
+    }
+    #id2{
+        margin-left: 1%;
+        margin-top: -31%;
+    }
+    #id3{
+        margin-left: 141%;
+        margin-top: -31%;
+    }
     .nomeempresa{
         font-size: 75px;
         margin-left: 0%;
@@ -323,7 +333,7 @@
     footer{
         display: flex;
         position: relative;
-        height: 663px;
+        height: 1500px;
         background-color:  #2A2A2E;
     }
     .sect8{
@@ -394,5 +404,7 @@
         margin-left: -18%;
         margin-right: -34%;
     }
-  
+  .end{
+      margin-left: -8%;
+  }
 }
